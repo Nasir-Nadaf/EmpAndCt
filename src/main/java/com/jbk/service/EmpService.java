@@ -9,8 +9,8 @@ import com.jbk.entity.Employee;
 
 @Service
 public class EmpService {
-	@Autowired
-	SimpleMail mail;
+	//@Autowired
+	//SimpleMail mail;
 	@Autowired
 	EmpDao dao;
 
