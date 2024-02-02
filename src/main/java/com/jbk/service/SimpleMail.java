@@ -12,6 +12,7 @@ public class SimpleMail {
 	
 	public void sendMail(String toEmail,String subject,String body) {
 		System.out.println("preparing mail");
+		
 		SimpleMailMessage msg=new SimpleMailMessage();
 		msg.setFrom("nasirnadaf341@gmail.com");
 		msg.setTo(toEmail);
